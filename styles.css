@@ -4,14 +4,25 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
+    text-align: center;
+}
+
+#page-wrap {
+    width: 1100px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
     background-color: #1F2937;
+}
+
+.big-container {
+    background-color:#1F2937;
 }
 
 .logo {
@@ -38,8 +49,8 @@ a {
     color:#F9FAF8;
     display: flex;
     align-items: center;
-    padding:80px 200px;
     gap: 80px;
+    padding: 80px 0;
 }
 
 .hero-text {
@@ -66,7 +77,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .signup {
