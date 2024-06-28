@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto Flex", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -142,14 +142,20 @@ a {
 .quote-box {
     display: flex;
     font-size: 36px;
-    font-style: italic;
+    font-style: italic; 
+    font-weight: 100;
     max-width: 780px;
     color: #1F2937;
     flex-wrap: wrap;
     justify-content: flex-end;
-    
+    margin: 100px 0;
 }
+
 
 .quote-author {
     align-self: flex-end;
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
 }
