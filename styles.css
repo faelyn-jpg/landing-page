@@ -117,6 +117,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     flex-basis: 150px;
+    gap: 15px;
     text-align: center;
     color: #1F2937;
 }
@@ -126,4 +127,29 @@ a {
     width: 140px;
     border-radius: 12px;
     border: 3px solid #3882F6;
+}
+
+.quote-background {
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    max-width: 780px;
+    color: #1F2937;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+}
+
+.quote-author {
+    align-self: flex-end;
 }
