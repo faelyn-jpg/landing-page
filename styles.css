@@ -159,3 +159,41 @@ a {
     font-weight: bold;
     font-style: normal;
 }
+
+.cta-container {
+    padding: 100px 0;
+}
+
+.cta-content {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.cta-box {
+    display: flex;
+    width: 780px;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-bold {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cta-signup {
+    align-self: flex-end;
+    border: 2px solid #F9FAF8;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.cta-color {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
