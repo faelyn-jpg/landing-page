@@ -21,6 +21,15 @@ body {
     background-color: #1F2937;
 }
 
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
 .big-container {
     background-color:#1F2937;
 }
@@ -197,3 +206,4 @@ a {
     background-color: #3882F6;
     color: #F9FAF8;
 }
+
